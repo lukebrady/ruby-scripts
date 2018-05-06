@@ -10,7 +10,6 @@ if ARGV[0] != nil &&
     text = file.read.split
     # Check to see which items are equal to the given argument.
     map_s = text.map {|word| word == c_word}
-    puts map_s
     # Iterate through the file contents and replace with given arg.
     i = 0
     # For each word that matches the given word, replace.
