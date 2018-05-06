@@ -18,3 +18,23 @@ def say
     input = gets.chomp
     puts input
 end
+
+# Finding number of kitties and puppies
+
+def puppies
+    print "How many puppies do you have? "
+    input = gets.chomp
+    return input
+    end
+
+def kitties
+    print "How many kitties do you have? "
+    input = gets.chomp
+    return input
+    end
+
+pups = puppies
+kits = kitties
+
+puts "You have #{pups.to_i + kits.to_i} puppies and kitties"
+
