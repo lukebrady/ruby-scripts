@@ -9,7 +9,7 @@ else
     # If not, the program will prompt for the user to enter a filename.
     filename = $stdin.gets.chomp
 end
-# The file will now be opened.
+# The file will now be opened and then read.
 file = open(filename)
 # The file contents are printed to the screen.
 print file.read
