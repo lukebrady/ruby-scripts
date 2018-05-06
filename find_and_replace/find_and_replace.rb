@@ -24,6 +24,7 @@ if ARGV[0] != nil &&
         end
     end
     puts text.join(" ")
+    # There will be a write function to write the new text back to disk.
 else
     puts "find_and_replace.rb {file} {find} {replace}"
 end
