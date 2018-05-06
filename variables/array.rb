@@ -9,3 +9,7 @@ AddStuff = arr[2] + arr[5]
 puts "The answer is #{AddStuff}"
 
 # Loop through all of the values in the array and print them to the screen.
+arr.each do |num|
+    puts num
+end
+
