@@ -16,6 +16,7 @@ def map(arr)
         i += 1
     end
     # Return the new doubled array.
+    # This is the result of the map function.
     return arr
 end
 
