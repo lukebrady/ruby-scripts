@@ -7,3 +7,5 @@ arr = [1,2,3,4,5,6,7,8,9,10]
 AddStuff = arr[2] + arr[5]
 
 puts "The answer is #{AddStuff}"
+
+# Loop through all of the values in the array and print them to the screen.
